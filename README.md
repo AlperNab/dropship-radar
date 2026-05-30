@@ -1,3 +1,29 @@
+# Dropship Radar
+
+This folder has been upgraded into a **standalone real GUI project**.
+
+Run the project GUI:
+
+```bash
+./run_gui.sh
+```
+
+Windows:
+
+```powershell
+.\run_gui_windows.ps1
+```
+
+Default local URL: `http://127.0.0.1:9117`
+
+This project includes its own FastAPI backend, browser GUI, provider settings, local/cloud LLM routing, encrypted API-key storage, file uploads, job history, exports, and a project-specific plugin configuration.
+
+See `PROJECT_IMPLEMENTATION.md` and `project_config.json` for the applied project-specific features and customization controls.
+
+---
+
+## Original README
+
 # dropship-radar
 
 > **AI product trend monitor for dropshippers.** Scans trending products across niches, scores each on margin potential, trend velocity, competition density and WOW factor. Know what to sell before it peaks.
